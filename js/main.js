@@ -222,9 +222,9 @@
             return r("body,html").animate({
                 scrollTop: 0
             }, 400), !1
-        }), r("#map").googleMap({
-            zoom: 16
-        }), r("#map").addMarker({
+        // }), r("#map").googleMap({
+        //     zoom: 16
+        // }), r("#map").addMarker({
             address: "S601 Townsend Street, San Francisco, California, USA"
         }), d(), t = "", r(".skill-container").each(function() {
             var e = r(this).attr("data-value");
